@@ -31,9 +31,12 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    // URL Route
-    UIViewController *loginModule = [[HHRouter shared] matchController:@"/loginModule"];
-    [self presentViewController:loginModule animated:YES completion:nil];
+    // Protocol-Class
+    Class aClass = [ModuleProtocolManager classForProtocol:@protocol(LoginModuleEntryProtocol)];
+    id<LoginModuleEntryProtocol> loginModule = [[aClass alloc] init];
+    
+    UIViewController *loginVC = [loginModule loginViewController];
+    [self presentViewController:loginVC animated:YES completion:nil];
 }
 
 

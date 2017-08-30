@@ -25,14 +25,9 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
-+ (void)load {
-    [[HHRouter shared] map:@"/loginModule" toControllerClass:self];
-}
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSLog(@"%@", self.params);
 }
 
 - (void)didReceiveMemoryWarning {
