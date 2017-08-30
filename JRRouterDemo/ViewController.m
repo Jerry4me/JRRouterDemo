@@ -31,11 +31,8 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    // Protocol-Class
-    Class aClass = [ModuleProtocolManager classForProtocol:@protocol(LoginModuleEntryProtocol)];
-    id<LoginModuleEntryProtocol> loginModule = [[aClass alloc] init];
-    
-    UIViewController *loginVC = [loginModule loginViewController];
+    // Target-Action
+    UIViewController *loginVC = [[CTMediator sharedInstance] CTMediator_loginViewController];
     [self presentViewController:loginVC animated:YES completion:nil];
 }
 
