@@ -15,6 +15,14 @@
 		3383C4491F5702F90036F126 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3383C4471F5702F90036F126 /* LaunchScreen.storyboard */; };
 		3383C4541F5702F90036F126 /* JRRouterDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3383C4531F5702F90036F126 /* JRRouterDemoTests.m */; };
 		3383C45F1F5702F90036F126 /* JRRouterDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3383C45E1F5702F90036F126 /* JRRouterDemoUITests.m */; };
+		3383C4711F57066D0036F126 /* HHRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3383C4701F57066D0036F126 /* HHRouter.m */; };
+		3383C4751F5706A70036F126 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3383C4741F5706A70036F126 /* LoginViewController.m */; };
+		3383C4771F5712890036F126 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3383C4761F5712890036F126 /* LoginViewController.xib */; };
+		3383C47B1F5718560036F126 /* LoginModuleEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 3383C47A1F5718560036F126 /* LoginModuleEntry.m */; };
+		3383C47E1F5718B30036F126 /* ModuleProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3383C47D1F5718B30036F126 /* ModuleProtocolManager.m */; };
+		3383C4841F571E180036F126 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3383C4831F571E180036F126 /* CTMediator.m */; };
+		3383C4871F571E350036F126 /* Target_Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 3383C4861F571E350036F126 /* Target_Login.m */; };
+		3383C48A1F571F300036F126 /* CTMediator+LoginModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3383C4891F571F300036F126 /* CTMediator+LoginModule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,22 @@
 		3383C45A1F5702F90036F126 /* JRRouterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JRRouterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3383C45E1F5702F90036F126 /* JRRouterDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRRouterDemoUITests.m; sourceTree = "<group>"; };
 		3383C4601F5702F90036F126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3383C46F1F57066D0036F126 /* HHRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHRouter.h; sourceTree = "<group>"; };
+		3383C4701F57066D0036F126 /* HHRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHRouter.m; sourceTree = "<group>"; };
+		3383C4731F5706A70036F126 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		3383C4741F5706A70036F126 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		3383C4761F5712890036F126 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		3383C4781F5717740036F126 /* LoginModuleEntryProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginModuleEntryProtocol.h; sourceTree = "<group>"; };
+		3383C4791F5718560036F126 /* LoginModuleEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginModuleEntry.h; sourceTree = "<group>"; };
+		3383C47A1F5718560036F126 /* LoginModuleEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginModuleEntry.m; sourceTree = "<group>"; };
+		3383C47C1F5718B30036F126 /* ModuleProtocolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleProtocolManager.h; sourceTree = "<group>"; };
+		3383C47D1F5718B30036F126 /* ModuleProtocolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleProtocolManager.m; sourceTree = "<group>"; };
+		3383C4821F571E180036F126 /* CTMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMediator.h; sourceTree = "<group>"; };
+		3383C4831F571E180036F126 /* CTMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMediator.m; sourceTree = "<group>"; };
+		3383C4851F571E350036F126 /* Target_Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_Login.h; sourceTree = "<group>"; };
+		3383C4861F571E350036F126 /* Target_Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_Login.m; sourceTree = "<group>"; };
+		3383C4881F571F300036F126 /* CTMediator+LoginModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+LoginModule.h"; sourceTree = "<group>"; };
+		3383C4891F571F300036F126 /* CTMediator+LoginModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+LoginModule.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +125,12 @@
 		3383C4381F5702F90036F126 /* JRRouterDemo */ = {
 			isa = PBXGroup;
 			children = (
-				3383C43C1F5702F90036F126 /* AppDelegate.h */,
-				3383C43D1F5702F90036F126 /* AppDelegate.m */,
+				3383C46C1F57035C0036F126 /* URLRoute */,
+				3383C46E1F5703690036F126 /* Protocol-Class */,
+				3383C46D1F5703670036F126 /* Target-Action */,
+				3383C4721F57068C0036F126 /* LoginModule */,
 				3383C43F1F5702F90036F126 /* ViewController.h */,
 				3383C4401F5702F90036F126 /* ViewController.m */,
-				3383C4421F5702F90036F126 /* Main.storyboard */,
-				3383C4451F5702F90036F126 /* Assets.xcassets */,
-				3383C4471F5702F90036F126 /* LaunchScreen.storyboard */,
-				3383C44A1F5702F90036F126 /* Info.plist */,
 				3383C4391F5702F90036F126 /* Supporting Files */,
 			);
 			path = JRRouterDemo;
@@ -117,6 +139,12 @@
 		3383C4391F5702F90036F126 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3383C43C1F5702F90036F126 /* AppDelegate.h */,
+				3383C43D1F5702F90036F126 /* AppDelegate.m */,
+				3383C4421F5702F90036F126 /* Main.storyboard */,
+				3383C4451F5702F90036F126 /* Assets.xcassets */,
+				3383C4471F5702F90036F126 /* LaunchScreen.storyboard */,
+				3383C44A1F5702F90036F126 /* Info.plist */,
 				3383C43A1F5702F90036F126 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +166,50 @@
 				3383C4601F5702F90036F126 /* Info.plist */,
 			);
 			path = JRRouterDemoUITests;
+			sourceTree = "<group>";
+		};
+		3383C46C1F57035C0036F126 /* URLRoute */ = {
+			isa = PBXGroup;
+			children = (
+				3383C46F1F57066D0036F126 /* HHRouter.h */,
+				3383C4701F57066D0036F126 /* HHRouter.m */,
+			);
+			name = URLRoute;
+			sourceTree = "<group>";
+		};
+		3383C46D1F5703670036F126 /* Target-Action */ = {
+			isa = PBXGroup;
+			children = (
+				3383C4821F571E180036F126 /* CTMediator.h */,
+				3383C4831F571E180036F126 /* CTMediator.m */,
+				3383C4881F571F300036F126 /* CTMediator+LoginModule.h */,
+				3383C4891F571F300036F126 /* CTMediator+LoginModule.m */,
+				3383C4851F571E350036F126 /* Target_Login.h */,
+				3383C4861F571E350036F126 /* Target_Login.m */,
+			);
+			name = "Target-Action";
+			sourceTree = "<group>";
+		};
+		3383C46E1F5703690036F126 /* Protocol-Class */ = {
+			isa = PBXGroup;
+			children = (
+				3383C4781F5717740036F126 /* LoginModuleEntryProtocol.h */,
+				3383C4791F5718560036F126 /* LoginModuleEntry.h */,
+				3383C47A1F5718560036F126 /* LoginModuleEntry.m */,
+				3383C47C1F5718B30036F126 /* ModuleProtocolManager.h */,
+				3383C47D1F5718B30036F126 /* ModuleProtocolManager.m */,
+			);
+			name = "Protocol-Class";
+			sourceTree = "<group>";
+		};
+		3383C4721F57068C0036F126 /* LoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				3383C4731F5706A70036F126 /* LoginViewController.h */,
+				3383C4741F5706A70036F126 /* LoginViewController.m */,
+				3383C4761F5712890036F126 /* LoginViewController.xib */,
+			);
+			name = LoginModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +321,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3383C4771F5712890036F126 /* LoginViewController.xib in Resources */,
 				3383C4491F5702F90036F126 /* LaunchScreen.storyboard in Resources */,
 				3383C4461F5702F90036F126 /* Assets.xcassets in Resources */,
 				3383C4441F5702F90036F126 /* Main.storyboard in Resources */,
@@ -277,8 +350,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				3383C4411F5702F90036F126 /* ViewController.m in Sources */,
+				3383C4871F571E350036F126 /* Target_Login.m in Sources */,
 				3383C43E1F5702F90036F126 /* AppDelegate.m in Sources */,
+				3383C48A1F571F300036F126 /* CTMediator+LoginModule.m in Sources */,
+				3383C47B1F5718560036F126 /* LoginModuleEntry.m in Sources */,
+				3383C4841F571E180036F126 /* CTMediator.m in Sources */,
+				3383C4711F57066D0036F126 /* HHRouter.m in Sources */,
+				3383C47E1F5718B30036F126 /* ModuleProtocolManager.m in Sources */,
 				3383C43B1F5702F90036F126 /* main.m in Sources */,
+				3383C4751F5706A70036F126 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
